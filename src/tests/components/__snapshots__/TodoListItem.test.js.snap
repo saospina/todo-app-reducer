@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for TodoListItem componentw should be shown correctly 1`] = `
+<WithStyles(ForwardRef(List))
+  className="makeStyles-root-1"
+  dense={true}
+>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    className="false"
+    key="1"
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      id="checkbox-list-secondary-label-1"
+      primary="Learn react js"
+    />
+    <Memo(ForwardRef(HighlightOffIcon))
+      color="secondary"
+      onClick={[Function]}
+    />
+    <WithStyles(ForwardRef(ListItemSecondaryAction))>
+      <WithStyles(ForwardRef(Checkbox))
+        checked={false}
+        color="primary"
+        edge="end"
+        inputProps={
+          Object {
+            "aria-labelledby": "checkbox-list-secondary-label-1",
+          }
+        }
+        onChange={[Function]}
+      />
+    </WithStyles(ForwardRef(ListItemSecondaryAction))>
+  </WithStyles(ForwardRef(ListItem))>
+</WithStyles(ForwardRef(List))>
+`;
